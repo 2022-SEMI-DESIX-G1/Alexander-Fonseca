@@ -7,7 +7,54 @@
     <title>Laboratorio 2</title>
 </head>
 <body>
-    //Escribir en una etiqueta "p" dentro del HTML, la respuesta a la pregunta
+    <!-- 1.Escribir en una etiqueta "p" dentro del HTML, la respuesta a la pregunta -->
     <p>¿Qué es Javascript y en qué se asemeja a Java?</p>
+    <p>R: Es un luenguaje de programación  interpretado debido a que el navegador es quien se encaraga de ser el interprete de traducir codigo html y css.</p>
+    <p><strong>Javascript es un lenguaje interpretado y Java un lenguaje compilado es decir no se asemejan en nada</strong></p>
+
+    <!-- 2.Declarar dos variables con la palabra reservada "var", imprimir el resultado de las operaciones
+     de "Suma", "Resta", "Multiplicación" y "División" en la consola. Las variables pueden ser estáticas. -->
+     <Script>
+         var num1 = 10;
+         var num2 = 5;
+
+         var suma = num1 + num2;
+         var resta = num1 - num2;
+         var multiplicacion = num1 * num2;
+         var division = num1 / num2;
+         console.log("------Operaciones-------");
+         console.log("Suma = "+suma);
+         console.log("Resta = "+resta);
+         console.log("Multiplicación = "+multiplicacion);
+         console.log("División = "+division);
+    
+    //3.Declarar dos variables con la palabra reservada "let", imprimir la concatenación de ellas.
+         console.log("------Concatenar-------");
+         let variable1 = "alexander";
+         let variable2 = "fonseca";
+         console.log(variable1+variable2);
+
+    //4.Declarar dos variables con la palabra reservada "const", imprimir cuál es el tipo de dato de esa variable.
+         const x = "";
+         const y = 0;
+         console.log("------Tipo de Dato-------");
+         console.log(typeof(x));
+         console.log(typeof(y));
+
+     /*5.Declarar una variable tipo Objecto, colocar 4 llaves dentro de él que contengan un entero, 
+        un string, un booleano y un objeto vacío, en ese mismo orden.*/
+        var lenguajes = {
+            java: 10,
+            python: "python",
+            php: false,
+            ruby: "",   
+        }
+        console.log("------Variable Tipo objeto-------");
+        console.log("entero: "+lenguajes.java);
+        console.log("string: "+lenguajes.python);
+        console.log("booleano: "+lenguajes.php);
+        console.log("vacio: "+lenguajes.ruby);
+     </Script>
+
 </body>
 </html>
