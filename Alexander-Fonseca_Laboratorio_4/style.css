@@ -1,0 +1,78 @@
+body{
+    display: flex;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    flex-direction: column;
+    align-items: center;
+}
+#seccion1{
+    display: block;
+    width: 50%;
+    height: 200px;
+    border: 1px solid rgba(128, 128, 128, 0.233);
+    background-color: rgb(241, 238, 238);
+    box-shadow: 0px 10px 15px -6px gray;
+}
+#formulario{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+#formulario #numero{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 20px;
+    margin-top: 10px;
+    /* border-color: rgba(226, 226, 226, 0.548); */
+    
+}
+ input[type="submit"]{
+    width: 40%;
+    height: 25px;
+    margin-top: 20px;
+    margin-left: 60%;
+    background-color: rgb(170, 1, 1);
+    color: white;
+    border: none;
+    box-shadow: 0px 10px 10px -6px rgb(146, 146, 146);
+    
+}
+input[type="submit"]:hover{
+    background-color: rgb(145, 1, 1);
+    cursor: pointer;
+    box-shadow: 0 0 15px rgb(146, 146, 146);;
+}
+#seccion2{
+    display: block;
+    width: 50%;
+    height: auto;
+    margin-top: 30px;
+   
+}
+#seccion2 #tarjetas{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+button{
+    width: 60px;
+    height: 60px;
+    background-color: rgb(241, 238, 238);
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.233);
+    box-shadow: 0px 10px 15px -6px gray;
+    cursor: pointer;
+    transition: all 100ms ease;
+    color: rgb(85, 85, 85)
+}
+button:hover{
+    width: 63px;
+    height: 63px;
+    background-color: rgb(241, 173, 173);
+   
+    
+}
